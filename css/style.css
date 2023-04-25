@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: PTSerif-Regular;
+    src: url(/fonts/PTSerif-Regular.ttf);
+  }
+@font-face {
+    font-family: Quite Chocolatey;
+    src: url(/fonts/Quite\ Chocolatey.ttf);
+}
+body {
+    font-family: PTSerif-Regular;
+}
+.header {
+    background-color: #c42112;
+}
+.header__container {
+    width: 1200px;
+    height: 690px;
+    margin: 0 auto;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-family: Quite Chocolatey;
+    src: url(../fonts/Quite\ Chocolatey.ttf);
+    color: #ffffff;
+    font-size: 88px;
+    margin-top: 40px;
+}
+.menu__inner {
+    display: flex;
+    margin-top: 73px;
+    margin-left: 230px;
+}
+a {
+    text-decoration: none;
+   
+    color: #ffffff;
+}
+.button:hover {
+    background-color: #130e27;
+    border-radius: 5px;
+}
+.button {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 18px;  
+    align-items: center; 
+    padding: 12px;
+}
+.title {
+    font-size: 90px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #130e27;
+    margin: 0 auto;
+    padding-top: 150px;
+    line-height: 90px;   
+}
+.title2 {
+    font-size: 90px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #ffffff;
+    margin: 0 auto;
+    line-height: 90px;
+}
+.title__text {
+    font-size: 20px;
+    color: #ffffff;
+    max-width: 470px;
+    margin-bottom: 160px;
+}
+.services {
+    background-color: #ffffff;
+}
+.services__container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.servises__title {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 150px;
+}
+.serv__title {
+    color: #c42112;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: PTSerif-Regular;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.serv__title2 {
+    color: #130e27;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: PTSerif-Regular;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.serv__cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.items {
+    width: 180px;
+    height: 260px;
+}
+.icon {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 155px;
+    height: 155px;
+}
+.serv__text {
+    font-family: PTSerif-Regular;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+}
+.story {
+    background-color: #130e27;
+    height: 120px;
+}
+.story__container {
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.story__text {
+    font-family: PTSerif-Regular;
+    font-size: 20px;
+    margin: 0 auto;
+    font-weight: bold;
+    color: #ffffff;
+    width: 650px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.story__button {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 18px;  
+    margin: 0 auto;
+    padding: 25px 70px;
+    background-color: #c42112;
+    border-radius: 5px;
+}
+.story__button:hover {
+    padding: 25px 70px;
+    background-color: #130e27;
+    border-radius: 5px;
+}
+.pricing {
+    background-color: #ffffff;
+}
+.pricing__container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.pricing__title {
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: PTSerif-Regular;
+    font-family: sans-serif;
+    color: #130e27;
+    margin: 0 auto;
+    padding-top: 65px;
+    padding-bottom: 80px;
+}
+.pricing__cards {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.pricing__items {
+    width: 280px;
+    height: 380px;
+    padding: 0 30px;
+}
+.pricing__cards__title {
+    text-align: center;
+    font-size: 22px;
+    color: #130e27;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.pricing__cards__price {
+    text-align: center;
+    font-size: 60px;
+    color: #c42112;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.pricing__cards__text {
+    text-align: center;
+    font-size: 20px;
+    color: #130e27;
+    font-weight: bold;
+}
+.pricing__buttont {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 20px;  
+    margin: 0 auto;
+    padding: 20px 80px;
+    background-color: #c42112;
+    border-radius: 5px;
+}
+.pricing__buttont:hover {
+    padding: 20px 80px;
+    background-color: #130e27;
+    border-radius: 5px;
+}
+.pricing__buttons {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 20px;  
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 60px;
+    background-color: #c42112;
+    border-radius: 5px;
+}
+.pricing__buttons:hover {
+    padding: 20px 60px;
+    background-color: #130e27;
+    border-radius: 5px;
+}
+.footer {
+    background-color: #130e27;
+}
+.footer__container {
+    width: 1200px;
+    height: 180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__text {
+    font-family: PTSerif-Regular;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: left;
+}
+span {
+    font-family: PTSerif-Regular;
+    font-size: 20px;
+    margin: 0 auto;
+    font-weight: bold;
+    color: #c42112;
+}
+.footer__logo {
+    font-family: Quite Chocolatey;
+    src: url(../fonts/Quite\ Chocolatey.ttf);
+    color: #c42112;
+    font-size: 64px;
+}
